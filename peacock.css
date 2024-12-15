@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: medium;
+    text-align: center;
+}
+.landing{
+    background-color: darkkhaki;
+    background-image: url("./360_F_20238404_QWpOgaN7g1sTC28vkaf39T7mfVKKo455.jpg");
+    color:black;
+    font-size: 3000vh;
+}
+.leading{
+    font-size:20px;
+    color: aqua;
+    background-color: aqua;
+    text-align: center;
+    font-style: italic;
+}
+.button{
+    font-size: medium;
+    text-align: center;
+    color: darkgreen;
+    padding: top 20px;
+    font-style: bold;
+}
