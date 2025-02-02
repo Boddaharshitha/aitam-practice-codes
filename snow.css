@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: large;
+}
+.landing{
+    background :url("https://images.pexels.com/photos/1266810/pexels-photo-1266810.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: cover;
+    background-color:pink;
+    background-position: center;
+    height: 120vh;
+}
+.landing{
+    font-size: medium;
+    text-align: center;
+    color:rgba(0,0,0,1);
+    padding:  20px;
+    font-style: bold;
+}
+.landing p{
+    font-size: medium;
+    text-align: center;
+    color: hsla(101,92%,45%,1);
+    padding: top 20px;
+    font-style: bold;
+}
+.button{
+    font-size: medium;
+    text-align: center;
+    color: darkgreen;
+    padding: top 20px;
+    font-style: bold;
+}

@@ -1,0 +1,56 @@
+*{
+    padding:0;
+    margin:0;
+}
+.landing{
+    background-color: aliceblue;
+    background: url("https://images.pexels.com/photos/29096361/pexels-photo-29096361/free-photo-of-professional-hair-styling-session-in-studio.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+.landing h1{
+    color: beige;
+    font-size: 20px;
+}
+.landing p{
+    color: black;
+    font-size: 20px;
+}
+.landing button{
+    color:beige;
+    font-size: 20px;
+}
+header {
+    position: relative;
+    color:black;
+    padding: 5em;
+  }
+  
+.top-nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5em;
+  }
+  
+.top-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+.top-nav li {
+    margin-right: 70px;
+    font-size: 20px;
+  }
+.top-nav a {
+    color:black;
+    text-decoration: none;
+    transition: color 0.2s ease;
+    font-size: 20px;
+  }
+.top-nav a:hover {
+    color:black;
+  }
+
+

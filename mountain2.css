@@ -1,0 +1,65 @@
+*{
+   padding:0;
+   margin:0; 
+}
+.landing{
+   font-style: normal;
+   background: url("https://images.pexels.com/photos/618833/pexels-photo-618833.jpeg?auto=compress&cs=tinysrgb&w=600");
+   background-size: cover;
+   height: 25vh;
+   padding: 300px;
+}
+.landing h1{
+    color: aqua;
+    text-align: center;
+    font-size: 50px;
+    padding: 10px;
+}
+.landing p{
+    color: rgb(118, 89, 159);
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+}
+.landing button{
+    color: brown;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 350px;
+    padding: 10px;
+}
+header {
+    position: relative;
+    color:black;
+    padding: 5em;
+  }
+  
+.top-nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5em;
+  }
+  
+  .top-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .top-nav li {
+    margin-right: 70px;
+    font-size: 20px;
+  }
+  
+  .top-nav a {
+    color:black;
+    text-decoration: none;
+    transition: color 0.2s ease;
+    font-size: 20px;
+  }
+  .top-nav a:hover {
+    color:black;
+  }

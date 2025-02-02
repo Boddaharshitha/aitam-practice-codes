@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <!-- Bootstrap CSS -->
+        <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+        crossorigin="anonymous"
+      />
+      <!-- Bootstrap JS --> 
+      <script defer
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"
+      ></script>
+</head>
+<body>
+    <!--without bootstrap classes-->
+    <!----
+    <form>
+        <label for="name">name</label>
+        <input type="text" id="name" placeholder="enter your name">
+        <label for="email">email</label>
+        <input type="text" id="name" placeholder="enter your email">
+        <button>submit</button>
+    </form>
+-->
+    <!--with bootstrap classes-->
+    <div class="conatiner">
+        <form class="border p-4 shadow rounded bg-light text-align:center">
+
+            <label for="Name" class="form-label">name</label>
+            <input class="form-control" type="text" id="name" placeholder="enter your name">
+            <label for="Email" class="form-label">Email</label>
+            <input class="form-control" type="email" id="Email" placeholder="enter your email">
+            <label for="Password" class="form-label">Password</label>
+            <input class="form-control" type="password" id="Password" placeholder="enter your password">
+            <label for="color-dark black" class="form-label">pick your color</label>
+            <input type="color" class="form-control-color" id=""><br><br>
+            <label for="date" class="form-label">pick a date</label>
+            <input class="form-control-date" name="" id="" type="date"><br><br>
+            <label for="range" class="form-control-range" id="">pick a range</label>
+            <input class="form-control-range" name="" id="" type="range"><br><br>
+
+            <button class="btn btn-primary">submit</button><br><br>
+            <label for="option" class="form-label">pick your state</label>
+            <select class="form-select">
+                <option value="1">AP</option>
+                <option value="2">Telanagan</option>
+                <option value="3">UP</option>
+                <option value="4">Assam</option>
+            </select>
+            <div class="form-check form-switch">
+                <input type="checkbox" class="form-check-input">
+                <label for="switch" class="form-check-label">I agree trems and conditions</label>
+            </div>
+            <br><br>
+            <div class="form-floating">
+                <input type="email" class="form-control" placeholder="place your email" id="floating-input">
+                <label for="floatingInput">Email address</label>
+            </div>
+            <br><br>
+        </form>
+    </div>
+</body>
+</html>
